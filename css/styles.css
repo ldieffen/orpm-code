@@ -1,0 +1,37 @@
+header {background-color: #081D3E;
+		height:50%;}
+
+
+p {font-family: 'PT Sans', sans-serif;
+	color: #58595B;}
+
+footer {font-family: 'PT Sans', sans-serif;
+		color: white;
+		background-color:#A6A8AB;}
+
+.menu li {
+	list-style-type: none;
+		margin: 0;
+		padding: 0;
+		float:right;
+		z-index:10;
+		color:white;
+		text-decoration:none;
+		}
+
+footer li {
+	list-style-type:none;}
+
+.contact li {list-style-type:none;} 
+
+h1 {font-family: 'Oswald', sans-serif;
+color:#CA992C;}
+
+h5 {color:#355B8E;
+	font-weight:bold;
+font-family: 'PT Sans', sans-serif}
+
+h3 {color:#CA992C;
+	font-family: 'PT Sans', sans-serif;
+	font-weight:bold;
+}
