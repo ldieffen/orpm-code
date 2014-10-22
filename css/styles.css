@@ -9,13 +9,13 @@ header {background-color: #081D3E;
 
 .paragraph {font-family: 'PT Sans', sans-serif;
 	color: #58595B;
-line-height:20px;
+line-height:1.5em;
 background-color:white;
-padding:15px;
+padding:2em;
 box-shadow: 10px 10px 5px #888888;}
 
 footer {font-family: 'PT Sans', sans-serif;
-		font-size:7pt;
+		font-size:.75em;
 		color: white;
 		background-color:#A6A8AB;
 		padding:0;
@@ -26,7 +26,7 @@ footer ul {padding-left:0;
 
 .cycle {padding-left:0px;
 		padding-right:0px;
-		padding-top:10px;}
+		padding-top:1em;}
 
 .menu li {
 	list-style-type: none;
@@ -36,11 +36,13 @@ footer ul {padding-left:0;
 		text-decoration:none;
 
 		}
+.partners {padding-left:0;
+padding-bottom:3em;}
 
 footer li {
 	list-style-type:none;
 	}
-
+.active {color:#CA992C;}
 .contact li {list-style-type:none;} 
 
 p {font-family: 'PT Sans', sans-serif;
@@ -66,11 +68,22 @@ h3 {color:#CA992C;
 	font-weight:bold;
 }
 
+.bar {background-color:gray;
+height:1em;
+padding:0;
+
+}
+
+.item a:hover {color:none;}
+
+.item a {background-color:none !important;}
+
+.navbar-nav li:hover {background-color:none;}
 
 .home_info {
     background-color: #355B8E;
-	padding:3%;
 	margin-bottom:50%;
+	padding:0;
 }
 
 .services {background-color:white;
@@ -96,8 +109,13 @@ margin-bottom:30px;}
 
 .services {margin-bottom:30px;}
 
+.home_info h6 {font-size:1em;}
+
+
 h6 {color:white;
-font-family: 'PT Sans', sans-serif;}
+font-family: 'PT Sans', sans-serif;
+line-height:1.5em;
+}
 
 
 .services {font-family: 'PT Sans', sans-serif;
@@ -115,6 +133,9 @@ line-height:20px;}
 .icon-bar {background-color:white;}
 
 .aboutus {margin-bottom:30px;}
+
+
+.home_info {padding:1em;}
 
 
 /*tablet*/
@@ -189,3 +210,4 @@ padding:35px;}
 .navbar-nav {padding-top:30px;
 background-image: url("menubg.png");}
 
+.ifp {padding-top:3em;}
